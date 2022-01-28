@@ -494,8 +494,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.max-h-80 {
+  max-height: 20rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .max-w-sm {
   max-width: 24rem;
+}
+
+.max-w-fit {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.max-w-xs {
+  max-width: 20rem;
 }
 
 .items-center {
